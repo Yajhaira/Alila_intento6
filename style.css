@@ -85,6 +85,20 @@
     .straps img {
         border-radius: 10px !important;
     }
+    .tituloPulseras{  /*HAY QUE HACER LAS IMÁENES MAS PEQUEÑAS*/
+        width: 89.18px !important;
+        height: 12.4px !important; 
+    }
+
+    .tituloAnillos {
+        width: 79px !important;
+        height: 12.4px !important; 
+    }
+
+    .tituloStraps {
+        width: 75.86px !important;
+        height: 12.4px !important; 
+    }
 
     .links{
     display: none;
