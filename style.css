@@ -33,13 +33,57 @@
     }
     
     header {
-        widht: 100%;
-        height: 100px;
+        widht: 100% !important;
+        height: 100px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        background-color: f2f2f2 !important;
+    }
+
+    .botonInsta {
+        width: 44.5px;
+        height: 45px;
+    }
+
+    .logoDR {
+        width: 56px;
+        height: 20px;
+    }
+
+    .logoPrincipal {
+        width: 96px !important;
+        height: 28px !important;
+        top: 20px;
     }
 
     .circulito {
-        width: 60px;
-        height: 55px; 
+        width: 21.72px !important;
+        height: 20px !important; 
+        top: 110% !important;
+        left: -10% !important;
+    }
+
+    .estrellita {
+        width: 36.5px !important;
+        height: 33.84px !important; 
+        top: 113% !important;
+        left: 50% !important;
+    }
+
+    .porcelana img {
+        border-radius: 10px !important;
+    }
+
+    .mostacilla img {
+        border-radius: 10px !important;
+    }
+
+    .straps img {
+        border-radius: 10px !important;
     }
 
     .links{
@@ -47,6 +91,26 @@
     }
     .menuham{
     display: block;
+    }
+
+    #conteItemsCarrusel article {
+        width: 100% !important;
+        height: 250px !important;
+    }
+
+    .headerA {
+        width: 100% !important;
+        height: 250px !important;
+    }
+
+    .headerB {
+        width: 100% !important;
+        height: 250px !important;
+    }
+
+    .headerC {
+        width: 100% !important;
+        height: 250px !important;
     }
 }
 
