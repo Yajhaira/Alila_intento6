@@ -1,11 +1,10 @@
-const inventary = [
-    {
-        imagenProducto: "https://i.pinimg.com/236x/99/11/bd/9911bd04d604856ea32f7cd2b48c2868.jpg",
+const inventary = [{
+        imagenProducto: "https://i.pinimg.com/236x/99/11/bd/9911bd04d604856ea32f7cd2b48c2868.jpg ",
         item: "Ojitos lindos",
         precio: "$15.000",
         material: "Porcelana",
         descripcion: "Anillo en porcelana fría con aro delagado, planon en color amarillo"
-    }, 
+    },
 
     {
         imagenProducto: "https://i.pinimg.com/564x/b1/94/36/b19436165d1630e3efd5c9ddc92a5425.jpg",
@@ -168,21 +167,40 @@ const inventary = [
         descripcion: "hola"
     },
 
-    
+
 ];
 
-const products = document.getElementById ("inventary");
-inventary.forEach ((item) => {
-    products.innerHTML += `<section class="elementList">
-        <figure class= "card_figure">
-            <img class = "card_img" src= ${item.image}>
-        </figure>
+let filteredProducts = inventary;
 
-        <article class = "card_article">
-        <h2>${item.item}</h2>
-        <p>${item.descripcion}</p>
-        <h3>${item.material}</h3>
-        <h5 class="card_precio"> ${item.precio}</h5>
-        </article>
-    </section>`
+const submit = document.getElementById("search");
+const searcher = document.getElementById("keyword");
+
+submit.addEventListener("click", (e)=>{
+    encontrar(searcher.value)
 })
+
+pintar();
+
+function pintar() {
+    const products = document.getElementById("inventary");
+    products.innerHTML = "";
+    filteredProducts.forEach((item) => {
+        
+        products.innerHTML += `<section class="elementList">
+            <figure class= "card_figure">
+                <img class = "card_img" src= ${item.imagenProducto} width= "25%" height= "15S%" >
+            </figure>
+    
+            <article class = "card_article">
+            <h2>${item.item}</h2>
+            <p>${item.descripcion}</p>
+            <h3>${item.material}</h3>
+            <h5 class="card_precio"> ${item.precio}</h5>
+            </article>
+        </section>`
+    })
+}
+function encontrar(element) {
+    filteredProducts = [inventary.find((item)=> item.item === element)];
+    pintar()
+    }
