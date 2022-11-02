@@ -42,7 +42,7 @@ const inventary = [{
         imagenProducto: "https://i.pinimg.com/564x/c2/4a/ba/c24aba060c1975985d9a39c47eba95a1.jpg",
         item: "Salpicón",
         precio: "$15.000",
-        material: "mostacilla",
+        material: "Mostacilla",
         descripcion: "Gargantilla blanca con muchas frutitas"
     },
 
@@ -50,7 +50,7 @@ const inventary = [{
         imagenProducto: "https://i.pinimg.com/564x/8c/f8/43/8cf843a972f36d78a7217960478db0a3.jpg",
         item: "Sapito",
         precio: "$20.000",
-        material: "mostacilla",
+        material: "Mostacilla",
         descripcion: "Collar blanco con un sapito a punto de meterse un hongo"
     },
 
@@ -58,7 +58,7 @@ const inventary = [{
         imagenProducto: "https://i.pinimg.com/564x/b1/58/e4/b158e4d475dca3068a1e13ee9c913497.jpg",
         item: "Happiness",
         precio: "$20.000",
-        material: "mostacilla",
+        material: "Mostacilla",
         descripcion: "Doble collar, multicolor y blanco con carita feliz"
     },
 
@@ -66,7 +66,7 @@ const inventary = [{
         imagenProducto: "https://i.pinimg.com/564x/21/ba/68/21ba68e42d926734fca0c0bef343a084.jpg",
         item: "Girasoles",
         precio: "$25.000",
-        material: "mostacilla",
+        material: "Mostacilla",
         descripcion: "Collar de girasoles con hojitas muy pritis"
     },
 
@@ -74,7 +74,7 @@ const inventary = [{
         imagenProducto: "https://i.pinimg.com/564x/e1/69/75/e16975dbd3c7b08c2e9c9adaf00c53e4.jpg",
         item: "Bob esponja",
         precio: "$20.000",
-        material: "mostacilla",
+        material: "Mostacilla",
         descripcion: "Collar con el estilo de las nubes de Bob esponja"
     },
 

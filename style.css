@@ -374,15 +374,15 @@ main {
 }
 
 .porcelana:hover {
-    width: 40%;
+    transform: scale(1.1);
 }
 
 .mostacilla:hover {
-    width: 40%;
+    transform: scale(1.1);
 }
 
 .straps:hover {
-    width: 40%;
+    transform: scale(1.1);
 }
 
 .tituloPulseras {

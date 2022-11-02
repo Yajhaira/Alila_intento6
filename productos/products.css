@@ -64,6 +64,11 @@
     margin-right: 190px;
 }
 
+.card_img:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
 .card_figure {
     width: 100%;
     height: auto;
