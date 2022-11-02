@@ -147,6 +147,7 @@ function pintar() {
         products.innerHTML += 
         
         `<section class="elementList">
+        <a href="./oneProduct.html?id=${item.item}">
             <figure class= "card_figure">
                 <img class = "card_img" src= ${item.imagenProducto} width= "50%" height= "80%" >
             </figure>
@@ -157,6 +158,7 @@ function pintar() {
             <h3>${item.material}</h3>
             <h5 class="card_precio"> ${item.precio}</h5>
             </article>
+            </a>
         </section>`
     })
 }
