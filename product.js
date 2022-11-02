@@ -155,8 +155,8 @@ function pintar() {
             <article class = "card_article">
             <h2>${item.item}</h2>
             <p>${item.descripcion}</p>
-            <h3>${item.material}</h3>
-            <h5 class="card_precio"> ${item.precio}</h5>
+            <h3>${item.material}</h5>
+            <h5 class="card_precio"> ${item.precio}</h3>
             </article>
             </a>
         </section>`
