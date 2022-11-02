@@ -26,8 +26,67 @@
     align-items: center;
 }
 
+#keywordText {
+    margin-left: 20px;
+}
+
+#keyword {
+    margin: 20px 20px 0px 0px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#keyword:active {
+    background-color: #1F1F1F;
+}
+
+#search {
+    background-color: #D5F26B;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    transition: 0.5s;
+}
+
+#search:focus {
+    width: 90px;
+    background-color: #adc557;
+    font-weight: 100; 
+    color: #F0FFB9;
+}
+
 .card_img {
     border-radius: 20px;
+    margin-right: 190px;
+}
+
+.card_figure {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementList {
+    width: 30%;
+    height: 50%;
+    margin: 20px;
+}
+
+#inventary {
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
 }
 
         /*MOBILE*/
@@ -213,6 +272,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    height: 430px;
 }
 
 figure {

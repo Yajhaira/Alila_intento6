@@ -3,7 +3,7 @@ const inventary = [{
         item: "Ojitos lindos",
         precio: "$15.000",
         material: "Porcelana",
-        descripcion: "Anillo en porcelana fría con aro delagado, planon en color amarillo"
+        descripcion: "Anillo en porcelana de aro delgado en color amarillo"
     },
 
     {
@@ -96,78 +96,36 @@ const inventary = [{
 
     {
         imagenProducto: "https://i.pinimg.com/564x/56/af/3a/56af3a500fd086a144f774e5a9eda601.jpg",
-        item: "gvb",
-        precio: "$15.000",
-        material: "gvbr",
-        descripcion: "hola"
+        item: "Colorcillos",
+        precio: "$20.000",
+        material: "Goma y mostacilla",
+        descripcion: "Strap multicolor con flores y frutas aleatorias"
     },
 
 
     {
-        imagenProducto: "ve",
-        item: "grv",
-        precio: "$15.000",
-        material: "gvbr",
-        descripcion: "hola"
+        imagenProducto: "https://i.pinimg.com/564x/7d/7e/04/7d7e04b6697012deedde3606902690d3.jpg",
+        item: "Perlitas de verdad",
+        precio: "$25.000",
+        material: "Mostacilla",
+        descripcion: "Cuelga gafas con perlas de colores pastel"
     },
 
     {
-        imagenProducto: "ve",
-        item: "grv",
-        precio: "$15.000",
-        material: "gvbr",
-        descripcion: "hola"
+        imagenProducto: "https://i.pinimg.com/originals/7b/f9/1c/7bf91c5a96420d1f7e648d871a3cbf88.jpg",
+        item: "Azulito",
+        precio: "$20.000",
+        material: "Mostacilla",
+        descripcion: "Cuelga gafas en color azul con ojitos y margaritas"
     },
 
     {
-        imagenProducto: "ve",
-        item: "grv",
-        precio: "$15.000",
-        material: "gvbr",
-        descripcion: "hola"
+        imagenProducto: "https://i.pinimg.com/originals/b2/05/a0/b205a0da0c2e237ea076e334711797cf.jpg",
+        item: "Piel",
+        precio: "$20.000",
+        material: "Mostacilla",
+        descripcion: "Cuelga gafas con tramado de piel de serpiente"
     },
-
-    {
-        imagenProducto: "ve",
-        item: "grv",
-        precio: "$15.000",
-        material: "gvbr",
-        descripcion: "hola"
-    },
-
-    {
-        imagenProducto: "ve",
-        item: "grv",
-        precio: "$15.000",
-        material: "gvbr",
-        descripcion: "hola"
-    },
-
-    {
-        imagenProducto: "ve",
-        item: "grv",
-        precio: "$15.000",
-        material: "gvbr",
-        descripcion: "hola"
-    },
-
-    {
-        imagenProducto: "ve",
-        item: "grv",
-        precio: "$15.000",
-        material: "gvbr",
-        descripcion: "hola"
-    },
-
-    {
-        imagenProducto: "ve",
-        item: "grv",
-        precio: "$15.000",
-        material: "gvbr",
-        descripcion: "hola"
-    },
-
-
 ];
 
 let filteredProducts = inventary;
@@ -186,9 +144,11 @@ function pintar() {
     products.innerHTML = "";
     filteredProducts.forEach((item) => {
         
-        products.innerHTML += `<section class="elementList">
+        products.innerHTML += 
+        
+        `<section class="elementList">
             <figure class= "card_figure">
-                <img class = "card_img" src= ${item.imagenProducto} width= "25%" height= "15S%" >
+                <img class = "card_img" src= ${item.imagenProducto} width= "50%" height= "80%" >
             </figure>
     
             <article class = "card_article">
