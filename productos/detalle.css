@@ -102,6 +102,22 @@
     margin-left: 0px;
 }
 
+.add_to_cart {
+    background-color: #D5F26B;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 190px;
+    transition: 0.5s;
+}
+
+.add_to_cart:hover {
+    width: 200px;
+    background-color: #adc557;
+    font-weight: 100; 
+    color: #F0FFB9;
+}
+
         /*MOBILE*/
         @media screen and (max-width: 767px) {
             body {
