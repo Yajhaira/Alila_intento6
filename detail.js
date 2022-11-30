@@ -6,6 +6,7 @@ const product = inventary.find(data =>
     data.item === productId
 
 )
+
 const container = document.getElementById("productContainer");
 container.innerHTML = "";
 container.innerHTML = 
